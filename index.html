@@ -1,0 +1,416 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="theme-color" content="#060b17">
+  <title>Gyan Prakash Tiwari | Full-Stack Developer &amp; AI/ML Enthusiast</title>
+  <meta name="description" content="Gyan Prakash Tiwari — Computer Science Engineering student, full-stack developer and AI/ML enthusiast building AI-powered and scalable software applications.">
+  <meta name="keywords" content="Gyan Prakash Tiwari, full-stack developer, AI/ML, computer science, GYAN1, software engineer">
+  <meta name="author" content="Gyan Prakash Tiwari">
+  <meta property="og:type" content="website">
+  <meta property="og:title" content="Gyan Prakash Tiwari | Full-Stack Developer &amp; AI/ML Enthusiast">
+  <meta property="og:description" content="Computer Science Engineering student building AI-powered products, scalable web platforms, and practical software.">
+  <meta property="og:image" content="images/social-preview.svg">
+
+  <link rel="icon" type="image/svg+xml" href="images/logo.svg">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Montserrat:wght@400;500;600;700&family=Playfair+Display:wght@600;700&family=Poppins:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/bootstrap.css">
+  <link rel="stylesheet" href="lib/ionicons/css/ionicons.min.css">
+  <link rel="stylesheet" href="lib/kursor/kursor.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="css/responsive.css">
+</head>
+<body class="body-height night">
+  <div class="preloader" aria-hidden="true">
+    <div class="loader"></div>
+    <div class="counter">0%</div>
+    <h3 class="dark-mode">Dark Mode</h3>
+    <h3 class="light-mode">Light Mode</h3>
+  </div>
+
+  <nav id="main-nav" aria-label="Primary navigation">
+    <div class="nav-inner container">
+      <a class="logo k-hover smoothScroll" href="#home" aria-label="Gyan Prakash Tiwari home">
+        <img src="images/logo.svg" width="52" height="52" alt="GPT monogram">
+        <span>GYAN<span>.</span></span>
+      </a>
+      <button class="responsive k-hover" type="button" aria-label="Toggle navigation" aria-expanded="false" aria-controls="navigation-menu">
+        <i class="ion-navicon-round" aria-hidden="true"></i>
+      </button>
+      <ul id="navigation-menu" class="nav-menu list-unstyled">
+        <li><a href="#home" class="smoothScroll k-hover active">Home</a></li>
+        <li><a href="#about" class="smoothScroll k-hover">About</a></li>
+        <li><a href="#skills" class="smoothScroll k-hover">Skills</a></li>
+        <li><a href="#project" class="smoothScroll k-hover">Projects</a></li>
+        <li><a href="#achievements" class="smoothScroll k-hover">Achievements</a></li>
+        <li><a href="#contact" class="smoothScroll k-hover">Contact</a></li>
+      </ul>
+      <div class="switcher">
+        <span class="switcher-label">Mode</span>
+        <div class="toggle-cover">
+          <input id="switch" type="checkbox" checked>
+          <label for="switch" id="toggle">Toggle light and dark mode</label>
+        </div>
+      </div>
+    </div>
+    <div class="progress-container"><div class="progress-bar" id="myBar"></div></div>
+  </nav>
+
+  <header id="home" class="home text-center">
+    <div class="gear-field" aria-hidden="true">
+      <img style="width:300px;left:-150px;top:-150px" src="gears/1.png" class="leftgear" alt="">
+      <img style="width:125px;left:2%;top:22%" src="gears/4.png" class="rightgear" alt="">
+      <img style="width:250px;left:12%;top:3%" src="gears/2.png" class="rightgear" alt="">
+      <img style="width:100px;left:29%;top:2%" src="gears/3.png" class="leftgear" alt="">
+      <img style="width:250px;left:38%;top:-60px" src="gears/4.png" class="rightgear" alt="">
+      <img style="width:350px;left:57%;top:-70px" src="gears/5.png" class="leftgear" alt="">
+      <img style="width:225px;right:-50px;top:12%" src="gears/6.png" class="rightgear" alt="">
+      <img style="width:225px;left:0;top:38%" src="gears/7.png" class="leftgear" alt="">
+      <img style="width:325px;left:18%;top:35%" src="gears/5.png" class="rightgear" alt="">
+      <img style="width:225px;left:45%;top:31%" src="gears/6.png" class="leftgear" alt="">
+      <img style="width:75px;right:24%;top:43%" src="gears/8.png" class="rightgear" alt="">
+      <img style="width:250px;right:4%;top:39%" src="gears/3.png" class="leftgear" alt="">
+      <img style="width:175px;right:-20px;top:47%" src="gears/7.png" class="rightgear" alt="">
+      <img style="width:250px;left:-100px;bottom:4%" src="gears/2.png" class="rightgear" alt="">
+      <img style="width:150px;left:12%;bottom:12%" src="gears/6.png" class="leftgear" alt="">
+      <img style="width:200px;left:40%;bottom:8%" src="gears/8.png" class="rightgear" alt="">
+      <img style="width:275px;right:5%;bottom:0" src="gears/1.png" class="leftgear" alt="">
+      <img style="width:150px;right:26%;bottom:9%" src="gears/4.png" class="leftgear" alt="">
+    </div>
+
+    <div class="container hero-container">
+      <div class="home-content">
+        <div class="hero-emblem" aria-hidden="true">
+          <div class="hero-orbit orbit-one"></div>
+          <div class="hero-orbit orbit-two"></div>
+          <img src="images/logo.svg" alt="" width="112" height="112">
+        </div>
+        <p class="hero-eyebrow">Hello, I am</p>
+        <h1>Gyan Prakash Tiwari</h1>
+        <p class="hero-typed"><span class="typed"></span></p>
+        <p class="hero-intro">Building intelligent, scalable products at the intersection of full-stack engineering and artificial intelligence.</p>
+        <div class="hero-actions">
+          <a href="#project" class="btn hero-primary smoothScroll k-hover">Explore my work <i class="ion-arrow-right-c" aria-hidden="true"></i></a>
+          <a href="Resume_Gyan_best.pdf" target="_blank" rel="noopener" class="btn hero-secondary k-hover">View resume <i class="ion-document-text" aria-hidden="true"></i></a>
+        </div>
+        <div class="hero-location"><i class="ion-ios-location-outline" aria-hidden="true"></i> Ghaziabad, Uttar Pradesh, India</div>
+      </div>
+      <a class="scroll-down smoothScroll k-hover" href="#about" aria-label="Scroll to about section">
+        <span>Scroll to explore</span><i class="fa fa-arrow-down" aria-hidden="true"></i>
+      </a>
+    </div>
+  </header>
+
+  <main>
+    <section id="about" class="paddsection">
+      <div class="container">
+        <div class="section-title text-center reveal">
+          <span class="section-kicker">01 / Introduction</span>
+          <h2>About Me</h2>
+          <hr>
+        </div>
+        <div class="row about-grid">
+          <div class="col-md-7 reveal">
+            <div class="about-description">
+              <p class="about-lead">I’m Gyan Prakash Tiwari, a Computer Science Engineering student at <strong>KIET Group of Institutions.</strong></p>
+              <p>I’m passionate about building full-stack applications, AI-powered systems, backend services, and scalable software products.</p>
+              <p>My recent work includes a personal AI assistant powered by Gemini, an enterprise-style movie ticket booking platform, and an intelligent household bill management system.</p>
+              <p>I enjoy combining software engineering with AI to build practical products that solve real-world problems.</p>
+              <p>I am continuously improving my skills in Data Structures &amp; Algorithms, backend engineering, cloud technologies, machine learning, and Generative AI.</p>
+            </div>
+            <div class="interest-cloud" aria-label="Interests">
+              <span>Competitive Programming</span><span>Backend Development</span><span>Artificial Intelligence</span>
+              <span>Machine Learning</span><span>Generative AI</span><span>AR/VR</span>
+              <span>Android Development</span><span>Badminton</span><span>Chess</span>
+            </div>
+          </div>
+          <div class="col-md-5 reveal">
+            <div class="profile-card" data-tilt>
+              <div class="profile-image-wrap">
+                <img src="images/gyan-prakash-tiwari.png" class="img-responsive" alt="Gyan Prakash Tiwari">
+                <span class="profile-status"><i></i> Open to learning and building</span>
+              </div>
+              <div class="profile-stats">
+                <div><strong>8.65</strong><span>CGPA</span></div>
+                <div><strong>3rd</strong><span>Year B.Tech</span></div>
+                <div><strong>CSE</strong><span>Engineering</span></div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div id="education" class="education-panel reveal">
+          <div class="education-icon"><i class="ion-university" aria-hidden="true"></i></div>
+          <div class="education-copy">
+            <span class="panel-label">Education</span>
+            <h3>KIET Group of Institutions, Delhi-NCR</h3>
+            <p>B.Tech — Computer Science and Engineering</p>
+            <span>Ghaziabad, Uttar Pradesh, India · Expected June 2028</span>
+          </div>
+          <div class="education-score"><strong>8.65</strong><span>Current CGPA</span></div>
+        </div>
+      </div>
+    </section>
+
+    <section id="skills" class="skill-paddsection">
+      <div class="container">
+        <div class="section-title text-center reveal">
+          <span class="section-kicker">02 / Expertise</span>
+          <h2>Technical Skills</h2>
+          <hr>
+          <p>A growing toolkit for building intelligent products from interface to infrastructure.</p>
+        </div>
+        <div class="skills-showcase reveal">
+          <div class="sphere-wrap">
+            <span class="Sphere" aria-label="Interactive 3D technology skill sphere"></span>
+            <span class="sphere-caption">Drag to explore my stack</span>
+          </div>
+          <div class="skills-intro">
+            <span class="panel-label">Engineering toolkit</span>
+            <h3>From robust backends to intelligent experiences.</h3>
+            <p>I work across the product lifecycle, combining modern interfaces, secure APIs, data-driven systems, and AI capabilities.</p>
+            <div class="career-goal"><i class="ion-ios-rocket-outline" aria-hidden="true"></i><span>Focused on full-stack development, backend systems, and AI-powered applications.</span></div>
+          </div>
+        </div>
+        <div class="row skill-grid">
+          <div class="col-md-4 col-sm-6 reveal"><div class="skill-category"><i class="ion-code" aria-hidden="true"></i><h3>Languages</h3><div class="tag-list"><span>C</span><span>C++</span><span>Java</span><span>Python</span><span>JavaScript</span><span>TypeScript</span><span>Dart</span><span>SQL</span></div></div></div>
+          <div class="col-md-4 col-sm-6 reveal"><div class="skill-category"><i class="ion-ios-monitor-outline" aria-hidden="true"></i><h3>Frontend</h3><div class="tag-list"><span>HTML</span><span>CSS</span><span>React 19</span><span>Next.js</span><span>Vite</span><span>Tailwind CSS</span><span>ShadCN UI</span><span>Zustand</span></div></div></div>
+          <div class="col-md-4 col-sm-6 reveal"><div class="skill-category"><i class="ion-ios-gear-outline" aria-hidden="true"></i><h3>Backend</h3><div class="tag-list"><span>Node.js</span><span>Express.js</span><span>FastAPI</span><span>Flask</span><span>REST APIs</span><span>WebSockets</span></div></div></div>
+          <div class="col-md-4 col-sm-6 reveal"><div class="skill-category"><i class="ion-ios-infinite-outline" aria-hidden="true"></i><h3>AI / Machine Learning</h3><div class="tag-list"><span>NumPy</span><span>Pandas</span><span>Scikit-learn</span><span>TensorFlow</span><span>PyTorch</span><span>Deep Learning</span><span>Generative AI</span><span>Gemini API</span></div></div></div>
+          <div class="col-md-4 col-sm-6 reveal"><div class="skill-category"><i class="ion-ios-filing-outline" aria-hidden="true"></i><h3>Data &amp; Security</h3><div class="tag-list"><span>PostgreSQL</span><span>MySQL</span><span>MongoDB</span><span>Supabase</span><span>Redis</span><span>JWT</span><span>OAuth</span><span>RBAC</span><span>RLS</span></div></div></div>
+          <div class="col-md-4 col-sm-6 reveal"><div class="skill-category"><i class="ion-ios-cloud-outline" aria-hidden="true"></i><h3>Cloud &amp; Beyond</h3><div class="tag-list"><span>AWS</span><span>Vercel</span><span>Render</span><span>Railway</span><span>Docker</span><span>Git</span><span>Linux</span><span>Tableau</span><span>Kafka</span><span>Airflow</span><span>Unity</span><span>DSA</span></div></div></div>
+        </div>
+      </div>
+    </section>
+
+    <section id="project" class="paddsection">
+      <div class="container">
+        <div class="section-title text-center reveal">
+          <span class="section-kicker">03 / Selected work</span>
+          <h2>Featured Projects</h2>
+          <hr>
+          <p>Practical products combining thoughtful engineering, useful features, and modern technology.</p>
+        </div>
+
+        <article class="project-showcase project-featured reveal" data-tilt>
+          <div class="project-visual neural-visual" aria-hidden="true">
+            <span class="visual-label">Featured / AI system</span>
+            <div class="neural-grid"></div>
+            <div class="neural-core"><div class="core-inner">G1</div><i class="core-ring ring-a"></i><i class="core-ring ring-b"></i><i class="core-ring ring-c"></i></div>
+            <span class="neural-node node-a"></span><span class="neural-node node-b"></span><span class="neural-node node-c"></span><span class="neural-node node-d"></span>
+            <div class="visual-terminal"><span><i></i> Gemini connected</span><strong>AI productivity intelligence</strong><small>Real-time · Voice · Insights</small></div>
+          </div>
+          <div class="project-content">
+            <div class="project-number">01 <span>Featured project</span></div>
+            <span class="project-category">AI / Generative AI / Full-Stack</span>
+            <h3>GYAN1 <small>Personal AI Assistant</small></h3>
+            <p class="project-tagline">A JARVIS-inspired personal AI assistant powered by Google Gemini.</p>
+            <p>GYAN1 unifies conversational AI, voice interaction, productivity intelligence, and personalized reports. Gemini-powered conversations stream in real time, while activity intelligence transforms daily patterns into actionable insights.</p>
+            <div class="tag-list project-tech"><span>Gemini</span><span>FastAPI</span><span>React 19</span><span>TypeScript</span><span>PostgreSQL</span><span>WebSockets</span></div>
+            <ul class="project-features">
+              <li><i class="ion-ios-checkmark-outline"></i>Streaming AI chat with persistent history</li>
+              <li><i class="ion-ios-checkmark-outline"></i>Voice input, speech responses, and waveforms</li>
+              <li><i class="ion-ios-checkmark-outline"></i>Focus detection and productivity analytics</li>
+              <li><i class="ion-ios-checkmark-outline"></i>AI-generated daily reports and privacy controls</li>
+            </ul>
+            <div class="project-actions"><a href="https://github.com/Xxierrr/GYAN1" target="_blank" rel="noopener" class="project-link k-hover"><i class="ion-social-github"></i> View GitHub</a></div>
+          </div>
+        </article>
+
+        <article class="project-showcase project-reverse reveal" data-tilt>
+          <div class="project-visual cinema-visual" aria-hidden="true">
+            <span class="visual-label">Enterprise web application</span>
+            <div class="cinema-glow"></div>
+            <div class="cinema-screen"><span>NOW SHOWING</span><strong>BOOK YOUR<br>NEXT EXPERIENCE</strong><i></i></div>
+            <div class="ticket-stub"><span>ADMIT ONE</span><strong>02</strong><small>MOVIE · SEAT · SHOWTIME</small></div>
+            <div class="cinema-seats"><i></i><i></i><i></i><i></i><i></i><i></i><i></i></div>
+          </div>
+          <div class="project-content">
+            <div class="project-number">02 <span>Full-stack platform</span></div>
+            <span class="project-category">Full-Stack / Enterprise Web Application</span>
+            <h3>Movie Ticket <small>Booking Platform</small></h3>
+            <p class="project-tagline">Enterprise-grade movie ticket booking inspired by modern booking systems.</p>
+            <p>A scalable monorepo with role-based access, movie and genre management, secure authentication, Redis caching, and structured backend services built for maintainability and growth.</p>
+            <div class="tag-list project-tech"><span>Next.js</span><span>TypeScript</span><span>Node.js</span><span>PostgreSQL</span><span>Redis</span><span>Prisma</span><span>JWT</span><span>Docker</span></div>
+            <ul class="project-features">
+              <li><i class="ion-ios-checkmark-outline"></i>Admin, theater owner, and user roles</li>
+              <li><i class="ion-ios-checkmark-outline"></i>Movie and genre CRUD with Redis caching</li>
+              <li><i class="ion-ios-checkmark-outline"></i>JWT security, rate limiting, and validation</li>
+              <li><i class="ion-ios-checkmark-outline"></i>Docker-ready, deployment-focused architecture</li>
+            </ul>
+            <p class="project-roadmap"><strong>Roadmap:</strong> Payment integration and concurrent seat booking are planned; they are not presented as completed features.</p>
+            <div class="project-actions">
+              <a href="https://github.com/Xxierrr/movie-ticket-booking-website" target="_blank" rel="noopener" class="project-link k-hover"><i class="ion-social-github"></i> GitHub</a>
+              <a href="https://movie-ticket-booking-website-web.vercel.app" target="_blank" rel="noopener" class="project-link primary k-hover"><i class="ion-android-open"></i> Live site</a>
+            </div>
+          </div>
+        </article>
+
+        <article class="project-showcase reveal" data-tilt>
+          <div class="project-visual smart-visual" aria-hidden="true">
+            <span class="visual-label">FinTech-style dashboard</span>
+            <div class="smart-dashboard">
+              <div class="dashboard-top"><span>HOUSEHOLD OVERVIEW</span><i class="ion-ios-home-outline"></i></div>
+              <strong>Smart spending.<br>Better decisions.</strong>
+              <div class="dashboard-chart"><i style="height:38%"></i><i style="height:62%"></i><i style="height:48%"></i><i style="height:82%"></i><i style="height:68%"></i><i style="height:92%"></i></div>
+              <div class="dashboard-insight"><span><i></i> Bills tracked</span><span>Insights ready</span></div>
+            </div>
+          </div>
+          <div class="project-content">
+            <div class="project-number">03 <span>Smart analytics</span></div>
+            <span class="project-category">Full-Stack / FinTech-style Dashboard</span>
+            <h3>SmartHome <small>Bill Manager</small></h3>
+            <p class="project-tagline">An intelligent household expense and bill management platform.</p>
+            <p>A centralized dashboard for expenses, bills, household profiles, and personalized insights. SmartHome makes spending patterns easier to understand through analytics, alerts, and intelligent predictions.</p>
+            <div class="tag-list project-tech"><span>React</span><span>Tailwind</span><span>Supabase</span><span>PostgreSQL</span><span>Recharts</span><span>Node.js</span></div>
+            <ul class="project-features">
+              <li><i class="ion-ios-checkmark-outline"></i>Expense dashboard with interactive analytics</li>
+              <li><i class="ion-ios-checkmark-outline"></i>Recurring bills, reminders, and smart alerts</li>
+              <li><i class="ion-ios-checkmark-outline"></i>Household, room, and appliance profiles</li>
+              <li><i class="ion-ios-checkmark-outline"></i>Saving tips and next-month predictions</li>
+            </ul>
+            <div class="project-actions">
+              <a href="https://github.com/Xxierrr/smart-home-bill-manager" target="_blank" rel="noopener" class="project-link k-hover"><i class="ion-social-github"></i> GitHub</a>
+              <a href="https://smart-home-bill-manager.vercel.app" target="_blank" rel="noopener" class="project-link primary k-hover"><i class="ion-android-open"></i> Live demo</a>
+            </div>
+          </div>
+        </article>
+      </div>
+    </section>
+
+    <section id="achievements" class="paddsection">
+      <div class="container">
+        <div class="section-title text-center reveal">
+          <span class="section-kicker">04 / Milestones</span>
+          <h2>Achievements</h2>
+          <hr>
+        </div>
+        <div class="achievement-grid">
+          <article class="achievement-card achievement-photo-card reveal">
+            <div class="achievement-photo-grid">
+              <img src="images/prodigy-battle-team.png" alt="Gyan Prakash Tiwari and fellow winners celebrating Prodigy Battle at TMU University" loading="lazy">
+              <img src="images/prodigy-battle-winner.png" alt="Prodigy Battle winner certificate, trophy, and cash prize" loading="lazy">
+            </div>
+            <div class="achievement-card-content">
+              <span class="achievement-value">Winner</span>
+              <i class="ion-trophy" aria-hidden="true"></i>
+              <span class="achievement-meta">Inter-University Aptitude Competition</span>
+              <h3>Prodigy Battle · TMU University</h3>
+              <p>Won the Prodigy Battle Grand Finale at Teerthanker Mahaveer University, Moradabad, earning the winner’s trophy, certificate, and a ₹4,500 prize.</p>
+            </div>
+          </article>
+          <article class="achievement-card achievement-photo-card reveal">
+            <div class="achievement-photo-grid achievement-photo-single">
+              <img src="images/icpc-binary-dominator.png" alt="ICPC 2025 certificate and Binary Dominator trophy awarded to Gyan Prakash Tiwari" loading="lazy">
+            </div>
+            <div class="achievement-card-content">
+              <span class="achievement-value">09<sup>th</sup></span>
+              <i class="ion-code-working" aria-hidden="true"></i>
+              <span class="achievement-meta">November 2025 · KIET Group of Institutions</span>
+              <h3>ICPC College Contest</h3>
+              <p>Team “Binary Dominator” ranked 9th at KIET, placing in the top ten among fifty teams and receiving recognition from the college director.</p>
+            </div>
+          </article>
+        </div>
+
+        <div class="certifications-heading reveal"><span class="panel-label">Continuous learning</span><h3>Certifications</h3></div>
+        <div class="row certification-grid">
+          <div class="col-xs-12 reveal">
+            <article class="certification-card certification-featured">
+              <div class="certification-details">
+                <span class="panel-label">Amazon Web Services</span>
+                <h4>AWS Certified Data Engineer - Associate</h4>
+                <p>Issued July 16, 2026 · Expires July 16, 2029</p>
+                <div class="credential-number"><span>Validation number</span><code>d238e9e88b074c40855c087d6970f947</code></div>
+                <a class="certification-verify k-hover" href="https://aws.amazon.com/verification" target="_blank" rel="noopener">Verify at aws.amazon.com/verification <i class="ion-android-open" aria-hidden="true"></i></a>
+              </div>
+            </article>
+          </div>
+          <div class="col-sm-6 reveal"><div class="certification-card"><i class="ion-ios-cloud-outline"></i><div><h4>AWS Certified Cloud Practitioner</h4><span>March 2026 · Credential listed in resume</span></div></div></div>
+          <div class="col-sm-6 reveal"><div class="certification-card"><i class="ion-coffee"></i><div><h4>OOP with Java</h4><span>Certificate link placeholder</span></div></div></div>
+          <div class="col-sm-6 reveal"><div class="certification-card"><i class="ion-ios-infinite-outline"></i><div><h4>Artificial Intelligence Certificate</h4><span>Certificate link placeholder</span></div></div></div>
+          <div class="col-sm-6 reveal"><div class="certification-card"><i class="ion-ios-world-outline"></i><div><h4>Cisco Packet Tracer Certificate</h4><span>Certificate link placeholder</span></div></div></div>
+          <div class="col-sm-6 reveal"><div class="certification-card"><i class="ion-ios-world-outline"></i><div><h4>Cisco Networking Essentials</h4><span>April 2026 · Credential listed in resume</span></div></div></div>
+          <div class="col-sm-6 reveal"><div class="certification-card"><i class="ion-ios-infinite-outline"></i><div><h4>Model Context Protocol: Advanced Topics</h4><span>May 2026 · Credential listed in resume</span></div></div></div>
+        </div>
+      </div>
+    </section>
+
+    <section id="resume" class="text-center">
+      <div class="container reveal">
+        <span class="section-kicker">A concise overview</span>
+        <h2>Want to know more?</h2>
+        <p>Explore my education, skills, projects, and engineering journey.</p>
+        <a href="Resume_Gyan_best.pdf" target="_blank" rel="noopener" class="btn resume-button k-hover">View my resume <i class="ion-android-download"></i></a>
+      </div>
+    </section>
+
+    <section id="contact" class="paddsection">
+      <div class="container">
+        <div class="section-title text-center reveal">
+          <span class="section-kicker">05 / Connect</span>
+          <h2>Let’s Build Something Meaningful</h2>
+          <hr>
+          <p>Have an idea, opportunity, or challenging problem? I’d be glad to connect.</p>
+        </div>
+        <div class="contact-panel reveal">
+          <div class="contact-intro">
+            <span class="panel-label">Get in touch</span>
+            <h3>Gyan Prakash Tiwari</h3>
+            <p>Computer Science Engineering Student<br>Full-Stack Developer · AI/ML Enthusiast</p>
+            <div class="contact-location"><i class="ion-ios-location-outline"></i><span>Ghaziabad, Uttar Pradesh, India</span></div>
+          </div>
+          <div class="contact-links">
+            <a href="https://github.com/Xxierrr" target="_blank" rel="noopener" class="contact-item k-hover"><i class="ion-social-github"></i><span><small>GitHub</small>github.com/Xxierrr</span><i class="ion-arrow-right-c"></i></a>
+            <a href="https://www.linkedin.com/in/gyan-prakash-tiwari" target="_blank" rel="noopener" class="contact-item k-hover"><i class="ion-social-linkedin"></i><span><small>LinkedIn</small>linkedin.com/in/gyan-prakash-tiwari</span><i class="ion-arrow-right-c"></i></a>
+            <a href="mailto:gyanprakash12306@gmail.com" class="contact-item k-hover"><i class="ion-ios-email-outline"></i><span><small>Email</small>gyanprakash12306@gmail.com</span><i class="ion-arrow-right-c"></i></a>
+            <a href="Resume_Gyan_best.pdf" target="_blank" rel="noopener" class="contact-item k-hover"><i class="ion-ios-document-outline"></i><span><small>Resume</small>View Resume_Gyan_best.pdf</span><i class="ion-arrow-right-c"></i></a>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer id="footer" class="text-center">
+    <div class="container">
+      <a class="footer-logo smoothScroll k-hover" href="#home"><img src="images/logo.svg" width="64" height="64" alt="GPT monogram"></a>
+      <div class="socials-media">
+        <ul class="list-unstyled">
+          <li><a href="https://github.com/Xxierrr" target="_blank" rel="noopener" aria-label="GitHub"><i class="k-hover ion-social-github"></i></a></li>
+          <li><a href="https://www.linkedin.com/in/gyan-prakash-tiwari" target="_blank" rel="noopener" aria-label="LinkedIn"><i class="k-hover ion-social-linkedin"></i></a></li>
+          <li><a href="mailto:gyanprakash12306@gmail.com" aria-label="Email"><i class="k-hover ion-ios-email-outline"></i></a></li>
+        </ul>
+      </div>
+      <p>Designed and engineered by <strong>Gyan Prakash Tiwari</strong></p>
+      <small>© <span id="current-year"></span> Gyan Prakash Tiwari. All rights reserved.</small>
+    </div>
+  </footer>
+
+  <div class="social-media-container">
+    <div class="social-media">
+      <p>Gyan Prakash Tiwari</p>
+      <button class="close-button" type="button" aria-label="Close social links"><i class="fa fa-times"></i></button>
+      <h4>Connect with me</h4>
+      <ul>
+        <li><a href="https://github.com/Xxierrr" target="_blank" rel="noopener" aria-label="GitHub"><i class="fa fa-github"></i></a></li>
+        <li><a href="https://www.linkedin.com/in/gyan-prakash-tiwari" target="_blank" rel="noopener" aria-label="LinkedIn"><i class="fa fa-linkedin"></i></a></li>
+        <li><a href="mailto:gyanprakash12306@gmail.com" aria-label="Email"><i class="fa fa-envelope"></i></a></li>
+      </ul>
+    </div>
+  </div>
+  <button class="floating-button k-hover" type="button" aria-expanded="false">Get in Touch</button>
+
+  <script src="lib/jquery/jquery.min.js"></script>
+  <script src="lib/jquery/jquery-migrate.min.js"></script>
+  <script src="lib/typed/typed.js"></script>
+  <script src="lib/kursor/kursor.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/TagCloud@2.2.0/dist/TagCloud.min.js"></script>
+  <script src="js/toggle.js"></script>
+  <script src="js/preloader.js"></script>
+  <script src="js/main.js"></script>
+</body>
+</html>

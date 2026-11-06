@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 630" role="img" aria-labelledby="title">
+  <title id="title">Gyan Prakash Tiwari portfolio</title>
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#101f32"/>
+      <stop offset="1" stop-color="#060b17"/>
+    </linearGradient>
+    <pattern id="grid" width="50" height="50" patternUnits="userSpaceOnUse">
+      <path d="M50 0H0v50" fill="none" stroke="#62d9f5" stroke-opacity=".06"/>
+    </pattern>
+  </defs>
+  <rect width="1200" height="630" fill="url(#bg)"/>
+  <rect width="1200" height="630" fill="url(#grid)"/>
+  <circle cx="1020" cy="100" r="320" fill="#3aacc7" opacity=".08"/>
+  <path d="M90 92h90M90 92v90M1110 538h-90m90 0v-90" fill="none" stroke="#3aacc7" stroke-width="3"/>
+  <text x="90" y="245" fill="#62d9f5" font-family="Arial,Helvetica,sans-serif" font-size="22" font-weight="600" letter-spacing="7">FULL-STACK DEVELOPER · AI/ML ENTHUSIAST</text>
+  <text x="90" y="345" fill="#f2fbff" font-family="Georgia,serif" font-size="72" font-weight="700">Gyan Prakash Tiwari</text>
+  <text x="90" y="415" fill="#a7b0c2" font-family="Arial,Helvetica,sans-serif" font-size="27">Building intelligent, scalable software products.</text>
+  <path d="M90 475h310" stroke="#3aacc7" stroke-width="5" stroke-linecap="round"/>
+</svg>

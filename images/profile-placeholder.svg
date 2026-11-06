@@ -1,0 +1,28 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 850" role="img" aria-labelledby="title desc">
+  <title id="title">Profile photo placeholder</title>
+  <desc id="desc">Replace this placeholder with Gyan Prakash Tiwari's profile photo.</desc>
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#13263b"/>
+      <stop offset=".55" stop-color="#091523"/>
+      <stop offset="1" stop-color="#060b17"/>
+    </linearGradient>
+    <radialGradient id="glow">
+      <stop offset="0" stop-color="#3aacc7" stop-opacity=".35"/>
+      <stop offset="1" stop-color="#3aacc7" stop-opacity="0"/>
+    </radialGradient>
+    <pattern id="grid" width="48" height="48" patternUnits="userSpaceOnUse">
+      <path d="M48 0H0v48" fill="none" stroke="#62d9f5" stroke-opacity=".07"/>
+    </pattern>
+  </defs>
+  <rect width="800" height="850" fill="url(#bg)"/>
+  <rect width="800" height="850" fill="url(#grid)"/>
+  <circle cx="400" cy="350" r="310" fill="url(#glow)"/>
+  <circle cx="400" cy="345" r="205" fill="none" stroke="#3aacc7" stroke-opacity=".3" stroke-width="2"/>
+  <circle cx="400" cy="345" r="235" fill="none" stroke="#3aacc7" stroke-opacity=".13" stroke-width="2" stroke-dasharray="8 14"/>
+  <path d="M170 345h80m300 0h80M400 115v70m0 320v70" stroke="#62d9f5" stroke-opacity=".25"/>
+  <text x="400" y="380" fill="#f2fbff" font-family="Arial,Helvetica,sans-serif" font-size="118" font-weight="700" text-anchor="middle" letter-spacing="-6">GPT</text>
+  <text x="400" y="665" fill="#62d9f5" font-family="Arial,Helvetica,sans-serif" font-size="20" font-weight="600" text-anchor="middle" letter-spacing="6">PROFILE PHOTO</text>
+  <text x="400" y="708" fill="#a7b0c2" font-family="Arial,Helvetica,sans-serif" font-size="18" text-anchor="middle">Add images/profile.jpg</text>
+  <path d="M285 748h230" stroke="#3aacc7" stroke-width="3" stroke-linecap="round"/>
+</svg>
